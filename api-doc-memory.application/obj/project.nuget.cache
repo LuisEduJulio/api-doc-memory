@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "2cjzQ7SFpOlfTPksAh9KuIbRbK67FDb+uz7wyVHyWrlJMgiFRRAOL7NZz0DE2IHw6dgNRqfL/cdC9mFTgPplyA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\luis_\\Documents\\api-doc-memory\\api-doc-memory.application\\api-doc-memory.application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\luis_\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\luis_\\.nuget\\packages\\fluentvalidation\\10.3.4\\fluentvalidation.10.3.4.nupkg.sha512",
+    "C:\\Users\\luis_\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\luis_\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

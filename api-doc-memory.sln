@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api-doc-memory.api", "api-doc-memory.api\api-doc-memory.api.csproj", "{A9F6A6D6-6B55-4BE9-B5C0-EAA20ACD7BC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api-doc-memory.domain", "api-doc-memory.domain\api-doc-memory.domain.csproj", "{8B459DD2-15C6-4EA0-ACAC-9A1A777A0AC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api-doc-memory.infraestructure", "api-doc-memory.infraestructure\api-doc-memory.infraestructure.csproj", "{EC6639DB-820F-498A-87CE-30D5ABA78C1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api-doc-memory.ioc", "api-doc-memory.ioc\api-doc-memory.ioc.csproj", "{DAA587A2-11FC-457F-BB8C-3300DC448D41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api-doc-memory.application", "api-doc-memory.application\api-doc-memory.application.csproj", "{B21F349C-73CD-4E2D-BB28-9E74D50169DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api-doc-memory.utility", "api-doc-memory.utility\api-doc-memory.utility.csproj", "{5E3334F1-3BBB-43E8-B3CF-533C76AA0FC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9F6A6D6-6B55-4BE9-B5C0-EAA20ACD7BC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9F6A6D6-6B55-4BE9-B5C0-EAA20ACD7BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9F6A6D6-6B55-4BE9-B5C0-EAA20ACD7BC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9F6A6D6-6B55-4BE9-B5C0-EAA20ACD7BC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B459DD2-15C6-4EA0-ACAC-9A1A777A0AC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B459DD2-15C6-4EA0-ACAC-9A1A777A0AC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B459DD2-15C6-4EA0-ACAC-9A1A777A0AC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B459DD2-15C6-4EA0-ACAC-9A1A777A0AC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC6639DB-820F-498A-87CE-30D5ABA78C1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC6639DB-820F-498A-87CE-30D5ABA78C1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC6639DB-820F-498A-87CE-30D5ABA78C1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC6639DB-820F-498A-87CE-30D5ABA78C1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAA587A2-11FC-457F-BB8C-3300DC448D41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAA587A2-11FC-457F-BB8C-3300DC448D41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAA587A2-11FC-457F-BB8C-3300DC448D41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAA587A2-11FC-457F-BB8C-3300DC448D41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B21F349C-73CD-4E2D-BB28-9E74D50169DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B21F349C-73CD-4E2D-BB28-9E74D50169DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B21F349C-73CD-4E2D-BB28-9E74D50169DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B21F349C-73CD-4E2D-BB28-9E74D50169DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E3334F1-3BBB-43E8-B3CF-533C76AA0FC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E3334F1-3BBB-43E8-B3CF-533C76AA0FC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E3334F1-3BBB-43E8-B3CF-533C76AA0FC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E3334F1-3BBB-43E8-B3CF-533C76AA0FC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48B95DFA-FBE7-4EA9-B81A-851A84ED1A29}
+	EndGlobalSection
+EndGlobal

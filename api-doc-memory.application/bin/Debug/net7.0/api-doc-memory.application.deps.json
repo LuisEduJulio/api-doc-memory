@@ -1,0 +1,109 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "api-doc-memory.application/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "12.0.1",
+          "FluentValidation": "10.3.4",
+          "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
+          "api-doc-memory.domain": "1.0.0",
+          "api-doc-memory.utility": "1.0.0"
+        },
+        "runtime": {
+          "api-doc-memory.application.dll": {}
+        }
+      },
+      "AutoMapper/12.0.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.1.0"
+          }
+        }
+      },
+      "FluentValidation/10.3.4": {
+        "runtime": {
+          "lib/net5.0/FluentValidation.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "10.3.4.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
+      "Microsoft.Extensions.Logging.Abstractions/5.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "api-doc-memory.domain/1.0.0": {
+        "runtime": {
+          "api-doc-memory.domain.dll": {}
+        }
+      },
+      "api-doc-memory.utility/1.0.0": {
+        "dependencies": {
+          "api-doc-memory.domain": "1.0.0"
+        },
+        "runtime": {
+          "api-doc-memory.utility.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "api-doc-memory.application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AutoMapper/12.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hvV62vl6Hp/WfQ24yzo3Co9+OPl8wH8hApwVtgWpiAynVJkUcs7xvehnSftawL8Pe8FrPffBRM3hwzLQqWDNjA==",
+      "path": "automapper/12.0.1",
+      "hashPath": "automapper.12.0.1.nupkg.sha512"
+    },
+    "FluentValidation/10.3.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hsGRtnhTlCrRbxIOkKp6rCBtkq3UV0i31ckcJtd5j1i99zqLgbQGcbxK0SMU63DIto94f++uIdRpoycu8ySnDQ==",
+      "path": "fluentvalidation/10.3.4",
+      "hashPath": "fluentvalidation.10.3.4.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NxP6ahFcBnnSfwNBi2KH2Oz8Xl5Sm2krjId/jRR3I7teFphwiUoUeZPwTNA21EX+5PtjqmyAvKaOeBXcJjcH/w==",
+      "path": "microsoft.extensions.logging.abstractions/5.0.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512"
+    },
+    "api-doc-memory.domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "api-doc-memory.utility/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
