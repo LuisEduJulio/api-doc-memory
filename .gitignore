@@ -1,1 +1,107 @@
 .vs
+
+# Ignore arquivos de configuração específicos do sistema
+.idea/
+.vscode/
+*.suo
+*.user
+*.suo
+*.user
+*.suo
+*.user
+*.suo
+*.user
+*.suo
+*.user
+*.suo
+*.user
+*.suo
+*.user
+
+# Ignore arquivos gerados pelo sistema operacional
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Ll]og/
+[Ll]ogs/
+
+# Ignore Node.js e dependências do Angular
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Ignore arquivos temporários
+*.swp
+*~
+
+# Ignore arquivos de compilação do Angular
+/dist/
+/tmp/
+
+# Ignore arquivos de compilação do .NET
+*.exe
+*.dll
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+*.opensdf
+*.unsuccessfulbuild
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Ignore arquivos temporários do Visual Studio Code
+.vscode/
+
+# Ignore arquivos temporários do Rider
+.idea/
+
+# Ignore arquivos específicos do sistema operacional
+Thumbs.db
+ehthumbs.db
+
+# Ignore o arquivo de configuração do ambiente
+.env
+
+.api-doc-memory/obj
+.api-doc-memory/bin
+.api-doc-memory/.vs
+.api-doc-memory/api-doc-memory.api/bin/
+.api-doc-memory/api-doc-memory.api/obj/
+.api-doc-memory/api-doc-memory.utility/bin
+.api-doc-memory/api-doc-memory.utility/obj
+.api-doc-memory/api-doc-memory.utility/bin
+.api-doc-memory/api-doc-memory.test/obj
+.api-doc-memory/api-doc-memory.test/bin
+.api-doc-memory/api-doc-memory.ioc/obj
+.api-doc-memory/api-doc-memory.ioc/bin
+.api-doc-memory/api-doc-memory.infraestructure/obj
+.api-doc-memory/api-doc-memory.infraestructure/bin
+.api-doc-memory/api-doc-memory.domain/obj
+.api-doc-memory/api-doc-memory.domain/bin
+.api-doc-memory/api-doc-memory.application/obj
+.api-doc-memory/api-doc-memory.application/bin
+.api-doc-memory/api-doc-memory.api/obj
+.api-doc-memory/api-doc-memory.api/bin
+/api-doc-memory/.vs/api-doc-memory
