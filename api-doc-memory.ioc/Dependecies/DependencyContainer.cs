@@ -54,9 +54,6 @@ namespace api_doc_memory.ioc.Dependecies
                 .UseInMemoryDatabase("MemoryDatabase")
                 .ConfigureWarnings(warnings => warnings.Ignore(InMemoryEventId.TransactionIgnoredWarning)));
 
-            // Adicionar dados iniciais (opcional)
-            //Services.AddTransient<IDataInitializer, DataInitializer>();
-
             var appSettings = configuration.Get<AppSettings>();
 
             Services.AddCors(c =>
