@@ -17,8 +17,8 @@ namespace api_doc_memory.api.Controllers
             _logger = logger;
             _personService = personService;
         }
-        [HttpPost("createperson")]
-        public async Task<IActionResult> PostCreatePersonAsync([FromBody] PersonAddDto entity)
+        [HttpPost]
+        public async Task<IActionResult> CreatePersonAsync([FromBody] PersonAddDto entity)
         {
             var resultService = await _personService.AddAsync(entity);
 
@@ -30,7 +30,7 @@ namespace api_doc_memory.api.Controllers
             return Ok(resultService);
         }
         [HttpGet("getpersonbyid/{id}")]
-        public async Task<IActionResult> GetPersonAllAsync(int id)
+        public async Task<IActionResult> PersonGetByIdAsync(int id)
         {
 
             var resultService = await _personService.GetByIdAsync(new PersonGetByIdDto(id));
@@ -43,7 +43,7 @@ namespace api_doc_memory.api.Controllers
             return Ok(resultService);
         }
         [HttpGet("getpersonall/{page}/{count}")]
-        public async Task<IActionResult> GetPersonAllAsync(int page, int count)
+        public async Task<IActionResult> PersonGetAllAsync(int page, int count)
         {
 
             var resultService = await _personService.GetAllAsync(new PaginationDto(page, count));
@@ -56,7 +56,7 @@ namespace api_doc_memory.api.Controllers
             return Ok(resultService);
         }
         [HttpGet("getpersonfilter")]
-        public async Task<IActionResult> GetPersonAllAsync([FromBody] PersonFilterDto entity)
+        public async Task<IActionResult> PersonGetByFilterAsync([FromBody] PersonFilterDto entity)
         {
 
             var resultService = await _personService.GetByFiltersAsync(entity);
@@ -69,7 +69,7 @@ namespace api_doc_memory.api.Controllers
             return Ok(resultService);
         }
         [HttpPut("updateperson")]
-        public async Task<IActionResult>UpdatePersonAsync([FromBody] PersonUpdateDto entity)
+        public async Task<IActionResult> PersonUpdateAsync([FromBody] PersonUpdateDto entity)
         {
 
             var resultService = await _personService.UpdateAsync(entity);
@@ -82,7 +82,7 @@ namespace api_doc_memory.api.Controllers
             return Ok(resultService);
         }
         [HttpDelete("deleteperson/{id}")]
-        public async Task<IActionResult> DeletePersonAsync(int Id)
+        public async Task<IActionResult> PersonDeleteAsync(int Id)
         {
 
             var resultService = await _personService.DeleteAsync(new PersonDeleteByIdDto(Id));
