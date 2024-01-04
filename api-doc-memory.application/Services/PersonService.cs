@@ -25,6 +25,26 @@ namespace api_doc_memory.application.Services
             _personRepository = personRepository;
             _mapper = mapper;
         }
+        public async Task<ResultService<PersonGetModelView>> GetByIdAsync(PersonGetByIdDto personGetByIdDto)
+        {
+            var validation = await new PersonGetByIdDtoValidator()
+                .ValidateAsync(personGetByIdDto);
+
+            if (!validation.IsValid) return ResultsHelpers
+                .ReturnResulService<PersonGetModelView>(false, validation.Errors.First().ErrorMessage, new PersonGetModelView());
+
+            var personEntity = await _personRepository
+                .GetByIdAsync(personGetByIdDto.Id);
+
+            if (!personEntity.Success) return ResultsHelpers
+                .ReturnResulService<PersonGetModelView>(false, personEntity.Message, new PersonGetModelView());
+
+            var personGetModelView = _mapper
+                .Map<PersonGetModelView>(personEntity.Data);
+
+            return ResultsHelpers
+                .ReturnResulService<PersonGetModelView>(personEntity.Success, "Get Person!", personGetModelView);
+        }
         public async Task<ResultService<PersonAddModelView>> AddAsync(PersonAddDto PersonAddDto)
         {
             var validation = await new PersonAddDtoValidator()
@@ -51,10 +71,10 @@ namespace api_doc_memory.application.Services
         public async Task<ResultService<PersonUpdateModelView>> UpdateAsync(PersonUpdateDto personUpdateDto)
         {
             var validation = await new PersonUpdateDtoValidator()
-                 .ValidateAsync(personUpdateDto);
+                .ValidateAsync(personUpdateDto);
 
             if (!validation.IsValid) return ResultsHelpers
-                    .ReturnResulService<PersonUpdateModelView>(false, validation.Errors.First().ErrorMessage, new PersonUpdateModelView());
+                .ReturnResulService<PersonUpdateModelView>(false, validation.Errors.First().ErrorMessage, new PersonUpdateModelView());
 
             var personEntityMapper = _mapper
                 .Map<PersonEntity>(personUpdateDto);
@@ -63,7 +83,7 @@ namespace api_doc_memory.application.Services
                 .UpdateAsync(personEntityMapper);
 
             if (!personEntity.Success) return ResultsHelpers
-                  .ReturnResulService<PersonUpdateModelView>(false, personEntity.Message, _mapper.Map<PersonUpdateModelView>(personEntityMapper));
+                .ReturnResulService<PersonUpdateModelView>(false, personEntity.Message, _mapper.Map<PersonUpdateModelView>(personEntityMapper));
 
             var personUpdateModelView = _mapper
                 .Map<PersonUpdateModelView>(personEntity.Data);
@@ -77,13 +97,13 @@ namespace api_doc_memory.application.Services
                 .ValidateAsync(personDeleteByIdDto);
 
             if (!validation.IsValid) return ResultsHelpers
-                    .ReturnResulService<int>(false, validation.Errors.First().ErrorMessage, personDeleteByIdDto.Id);
+                .ReturnResulService<int>(false, validation.Errors.First().ErrorMessage, personDeleteByIdDto.Id);
 
             var personEntity = await _personRepository
                 .DeleteAsync(personDeleteByIdDto.Id);
 
             if (!personEntity.Success) return ResultsHelpers
-                    .ReturnResulService<int>(false, personEntity.Message, personDeleteByIdDto.Id);
+                .ReturnResulService<int>(false, personEntity.Message, personDeleteByIdDto.Id);
 
             return ResultsHelpers
                 .ReturnResulService<int>(personEntity.Success, "Delete Person!", personDeleteByIdDto.Id);
@@ -94,7 +114,7 @@ namespace api_doc_memory.application.Services
                 .ValidateAsync(personFilterDto);
 
             if (!validation.IsValid) return ResultsHelpers
-                    .ReturnResulService<PersonGetAllModelView>(false, validation.Errors.First().ErrorMessage, new PersonGetAllModelView());
+                .ReturnResulService<PersonGetAllModelView>(false, validation.Errors.First().ErrorMessage, new PersonGetAllModelView());
 
             var personEntityMapper = _mapper
                 .Map<PersonEntity>(personFilterDto);
@@ -103,7 +123,7 @@ namespace api_doc_memory.application.Services
                 .GetByFiltersAsync(personEntityMapper);
 
             if (!personEntity.Success) return ResultsHelpers
-                    .ReturnResulService<PersonGetAllModelView>(false, personEntity.Message, new PersonGetAllModelView());
+                .ReturnResulService<PersonGetAllModelView>(false, personEntity.Message, new PersonGetAllModelView());
 
             var personGetAllModelView = new PersonGetAllModelView();
 
@@ -120,38 +140,20 @@ namespace api_doc_memory.application.Services
             return ResultsHelpers
                 .ReturnResulService<PersonGetAllModelView>(personEntity.Success, "List Person!", personGetAllModelView);
         }
-        public async Task<ResultService<PersonGetModelView>> GetByIdAsync(PersonGetByIdDto personGetByIdDto)
-        {
-            var validation = await new PersonGetByIdDtoValidator().ValidateAsync(personGetByIdDto);
-
-            if (!validation.IsValid) return ResultsHelpers
-                    .ReturnResulService<PersonGetModelView>(false, validation.Errors.First().ErrorMessage, new PersonGetModelView());
-
-            var personEntity = await _personRepository
-                .GetByIdAsync(personGetByIdDto.Id);
-
-            if (!personEntity.Success) return ResultsHelpers
-                    .ReturnResulService<PersonGetModelView>(false, personEntity.Message, new PersonGetModelView());
-
-            var personGetModelView = _mapper
-                .Map<PersonGetModelView>(personEntity.Data);
-
-            return ResultsHelpers
-                .ReturnResulService<PersonGetModelView>(personEntity.Success, "Get Person!", personGetModelView);
-        }
+       
         public async Task<ResultService<PersonGetAllModelView>> GetAllAsync(PaginationDto paginationDto)
         {
             var validation = await new PaginationDtoValidator()
-              .ValidateAsync(paginationDto);
+                .ValidateAsync(paginationDto);
 
             if (!validation.IsValid) return ResultsHelpers
-                    .ReturnResulService<PersonGetAllModelView>(false, validation.Errors.First().ErrorMessage, new PersonGetAllModelView());
+                .ReturnResulService<PersonGetAllModelView>(false, validation.Errors.First().ErrorMessage, new PersonGetAllModelView());
 
             var personEntity = await _personRepository
-                 .GetAllAsync(paginationDto.Page, paginationDto.Count);
+                .GetAllAsync(paginationDto.Page, paginationDto.Count);
 
             if (!personEntity.Success) return ResultsHelpers
-                    .ReturnResulService<PersonGetAllModelView>(false, personEntity.Message, new PersonGetAllModelView());
+                .ReturnResulService<PersonGetAllModelView>(false, personEntity.Message, new PersonGetAllModelView());
 
             var personGetAllModelView = new PersonGetAllModelView();
 

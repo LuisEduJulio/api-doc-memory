@@ -13,7 +13,7 @@ namespace api_doc_memory.application.Validators
 
             RuleFor(customer => customer.Age)
                 .NotEmpty()
-                .WithMessage("The last name is required!");
+                .WithMessage("The age is required!");
         }
     }
 }

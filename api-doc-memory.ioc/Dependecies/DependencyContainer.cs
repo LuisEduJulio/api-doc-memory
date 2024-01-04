@@ -50,9 +50,9 @@ namespace api_doc_memory.ioc.Dependecies
 
             var configuration = builder.Build();
 
-            Services.AddDbContext<AppDbContext>(options => options
-                .UseInMemoryDatabase("MemoryDatabase")
-                .ConfigureWarnings(warnings => warnings.Ignore(InMemoryEventId.TransactionIgnoredWarning)));
+            Services
+                .AddDbContextPool<AppDbContext>(options =>
+                    options.UseInMemoryDatabase("InMemoryDatabase"));
 
             var appSettings = configuration.Get<AppSettings>();
 

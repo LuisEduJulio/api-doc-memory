@@ -56,7 +56,7 @@ namespace api_doc_memory.api.Controllers
             return Ok(resultService);
         }
         [HttpGet("getpersonfilter")]
-        public async Task<IActionResult> PersonGetByFilterAsync([FromBody] PersonFilterDto entity)
+        public async Task<IActionResult> PersonGetByFilterAsync([FromQuery] PersonFilterDto entity)
         {
 
             var resultService = await _personService.GetByFiltersAsync(entity);
@@ -81,7 +81,7 @@ namespace api_doc_memory.api.Controllers
 
             return Ok(resultService);
         }
-        [HttpDelete("deleteperson/{id}")]
+        [HttpDelete("deleteperson/{Id}")]
         public async Task<IActionResult> PersonDeleteAsync(int Id)
         {
 

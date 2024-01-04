@@ -23,7 +23,7 @@ namespace api_doc_memory.infraestructure.Repositories
             try
             {
                 var newEntity = await _dbContext
-                    .PersonEntitys
+                    .PersonEntities
                     .AddAsync(entity);
 
                 await _dbContext
@@ -44,7 +44,9 @@ namespace api_doc_memory.infraestructure.Repositories
         {
             try
             {
-                var person = await _dbContext.PersonEntitys.FindAsync(id);
+                var person = await _dbContext
+                    .PersonEntities
+                    .FindAsync(id);
 
                 if (person == null)
                 {
@@ -52,7 +54,9 @@ namespace api_doc_memory.infraestructure.Repositories
                         .ReturnResultRepository<int>(false, $"Person with Id {id} not found", id);
                 }
 
-                _dbContext.PersonEntitys.Remove(person);
+                _dbContext
+                    .PersonEntities
+                    .Remove(person);
 
                 await _dbContext.SaveChangesAsync();
 
@@ -70,7 +74,9 @@ namespace api_doc_memory.infraestructure.Repositories
         {
             try
             {
-                var persons = await _dbContext.PersonEntitys.Skip((page - 1) * count).Take(count).ToListAsync();
+                var persons = await _dbContext
+                    .PersonEntities
+                    .Skip((page - 1) * count).Take(count).ToListAsync();
 
                 return ResultsHelpers.ReturnResultRepository<List<PersonEntity>>(true, "Person List", persons);
             }
@@ -87,8 +93,8 @@ namespace api_doc_memory.infraestructure.Repositories
             try
             {
                 var persons = await _dbContext
-                    .PersonEntitys
-                    .Where(p => p.Name.Equals(entity.Name))
+                    .PersonEntities
+                    .Where(p => (entity.Id == 0 || p.Id == entity.Id) && (entity.Id != 0 || p.Name.Contains(entity.Name)))
                     .ToListAsync();
 
                 return ResultsHelpers
@@ -106,7 +112,9 @@ namespace api_doc_memory.infraestructure.Repositories
         {
             try
             {
-                var person = await _dbContext.PersonEntitys.FindAsync(id);
+                var person = await _dbContext
+                    .PersonEntities
+                    .FindAsync(id);
 
                 if (person == null)
                 {
@@ -115,7 +123,7 @@ namespace api_doc_memory.infraestructure.Repositories
                 }
 
                 return ResultsHelpers
-                    .ReturnResultRepository<PersonEntity>(false, $"Person with Id {id} ", person);
+                    .ReturnResultRepository<PersonEntity>(true, $"Person with Id {id} ", person);
             }
             catch (Exception Exception)
             {
