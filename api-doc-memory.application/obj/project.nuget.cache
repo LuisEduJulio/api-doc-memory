@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2cjzQ7SFpOlfTPksAh9KuIbRbK67FDb+uz7wyVHyWrlJMgiFRRAOL7NZz0DE2IHw6dgNRqfL/cdC9mFTgPplyA==",
+  "dgSpecHash": "npjUvYGALu9LB1HBtQmBnBZ7FhK4mlm8Z8EcOeKukfuGOhj6nc5EdfXH5oya+1EwmDGxTdUZYFFgvDU/mC9xUA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\luis_\\Documents\\api-doc-memory\\api-doc-memory.application\\api-doc-memory.application.csproj",
+  "projectFilePath": "C:\\Users\\luis_\\Documents\\Nova pasta (2)\\api-doc-memory\\api-doc-memory.application\\api-doc-memory.application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\luis_\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\luis_\\.nuget\\packages\\fluentvalidation\\10.3.4\\fluentvalidation.10.3.4.nupkg.sha512",

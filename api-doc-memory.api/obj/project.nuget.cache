@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "A3Bl0s6x7KpaSWw08rePRx0ZG2ZOquJhVJzL3i/K7CTJNELw403M/18o7JGZfZfkR4uaD4eya+bjm+IPAMSpBg==",
+  "dgSpecHash": "vnZeQ6QAIIruj37xkjL7E/PCn91t+QPJASrjoIMYi/O3/lltEzXApMWs/Mywr9vxnlt5AcfCxeS+G7uG5RiWFw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\luis_\\Documents\\api-doc-memory\\api-doc-memory.api\\api-doc-memory.api.csproj",
+  "projectFilePath": "C:\\Users\\luis_\\Documents\\Nova pasta (2)\\api-doc-memory\\api-doc-memory.api\\api-doc-memory.api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\luis_\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\luis_\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

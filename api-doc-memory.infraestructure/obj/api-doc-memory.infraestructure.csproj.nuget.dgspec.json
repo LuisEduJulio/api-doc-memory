@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luis_\\Documents\\api-doc-memory\\api-doc-memory.infraestructure\\api-doc-memory.infraestructure.csproj": {}
+    "C:\\Users\\luis_\\Documents\\Nova pasta (2)\\api-doc-memory\\api-doc-memory.infraestructure\\api-doc-memory.infraestructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luis_\\Documents\\api-doc-memory\\api-doc-memory.domain\\api-doc-memory.domain.csproj": {
+    "C:\\Users\\luis_\\Documents\\Nova pasta (2)\\api-doc-memory\\api-doc-memory.domain\\api-doc-memory.domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luis_\\Documents\\api-doc-memory\\api-doc-memory.domain\\api-doc-memory.domain.csproj",
+        "projectUniqueName": "C:\\Users\\luis_\\Documents\\Nova pasta (2)\\api-doc-memory\\api-doc-memory.domain\\api-doc-memory.domain.csproj",
         "projectName": "api-doc-memory.domain",
-        "projectPath": "C:\\Users\\luis_\\Documents\\api-doc-memory\\api-doc-memory.domain\\api-doc-memory.domain.csproj",
+        "projectPath": "C:\\Users\\luis_\\Documents\\Nova pasta (2)\\api-doc-memory\\api-doc-memory.domain\\api-doc-memory.domain.csproj",
         "packagesPath": "C:\\Users\\luis_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luis_\\Documents\\api-doc-memory\\api-doc-memory.domain\\obj\\",
+        "outputPath": "C:\\Users\\luis_\\Documents\\Nova pasta (2)\\api-doc-memory\\api-doc-memory.domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\Users\\luis_\\Documents\\api-doc-memory\\api-doc-memory.infraestructure\\api-doc-memory.infraestructure.csproj": {
+    "C:\\Users\\luis_\\Documents\\Nova pasta (2)\\api-doc-memory\\api-doc-memory.infraestructure\\api-doc-memory.infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luis_\\Documents\\api-doc-memory\\api-doc-memory.infraestructure\\api-doc-memory.infraestructure.csproj",
+        "projectUniqueName": "C:\\Users\\luis_\\Documents\\Nova pasta (2)\\api-doc-memory\\api-doc-memory.infraestructure\\api-doc-memory.infraestructure.csproj",
         "projectName": "api-doc-memory.infraestructure",
-        "projectPath": "C:\\Users\\luis_\\Documents\\api-doc-memory\\api-doc-memory.infraestructure\\api-doc-memory.infraestructure.csproj",
+        "projectPath": "C:\\Users\\luis_\\Documents\\Nova pasta (2)\\api-doc-memory\\api-doc-memory.infraestructure\\api-doc-memory.infraestructure.csproj",
         "packagesPath": "C:\\Users\\luis_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luis_\\Documents\\api-doc-memory\\api-doc-memory.infraestructure\\obj\\",
+        "outputPath": "C:\\Users\\luis_\\Documents\\Nova pasta (2)\\api-doc-memory\\api-doc-memory.infraestructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -91,11 +91,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\luis_\\Documents\\api-doc-memory\\api-doc-memory.domain\\api-doc-memory.domain.csproj": {
-                "projectPath": "C:\\Users\\luis_\\Documents\\api-doc-memory\\api-doc-memory.domain\\api-doc-memory.domain.csproj"
+              "C:\\Users\\luis_\\Documents\\Nova pasta (2)\\api-doc-memory\\api-doc-memory.domain\\api-doc-memory.domain.csproj": {
+                "projectPath": "C:\\Users\\luis_\\Documents\\Nova pasta (2)\\api-doc-memory\\api-doc-memory.domain\\api-doc-memory.domain.csproj"
               },
-              "C:\\Users\\luis_\\Documents\\api-doc-memory\\api-doc-memory.utility\\api-doc-memory.utility.csproj": {
-                "projectPath": "C:\\Users\\luis_\\Documents\\api-doc-memory\\api-doc-memory.utility\\api-doc-memory.utility.csproj"
+              "C:\\Users\\luis_\\Documents\\Nova pasta (2)\\api-doc-memory\\api-doc-memory.utility\\api-doc-memory.utility.csproj": {
+                "projectPath": "C:\\Users\\luis_\\Documents\\Nova pasta (2)\\api-doc-memory\\api-doc-memory.utility\\api-doc-memory.utility.csproj"
               }
             }
           }
@@ -181,14 +181,14 @@
         }
       }
     },
-    "C:\\Users\\luis_\\Documents\\api-doc-memory\\api-doc-memory.utility\\api-doc-memory.utility.csproj": {
+    "C:\\Users\\luis_\\Documents\\Nova pasta (2)\\api-doc-memory\\api-doc-memory.utility\\api-doc-memory.utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luis_\\Documents\\api-doc-memory\\api-doc-memory.utility\\api-doc-memory.utility.csproj",
+        "projectUniqueName": "C:\\Users\\luis_\\Documents\\Nova pasta (2)\\api-doc-memory\\api-doc-memory.utility\\api-doc-memory.utility.csproj",
         "projectName": "api-doc-memory.utility",
-        "projectPath": "C:\\Users\\luis_\\Documents\\api-doc-memory\\api-doc-memory.utility\\api-doc-memory.utility.csproj",
+        "projectPath": "C:\\Users\\luis_\\Documents\\Nova pasta (2)\\api-doc-memory\\api-doc-memory.utility\\api-doc-memory.utility.csproj",
         "packagesPath": "C:\\Users\\luis_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luis_\\Documents\\api-doc-memory\\api-doc-memory.utility\\obj\\",
+        "outputPath": "C:\\Users\\luis_\\Documents\\Nova pasta (2)\\api-doc-memory\\api-doc-memory.utility\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -209,8 +209,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\luis_\\Documents\\api-doc-memory\\api-doc-memory.domain\\api-doc-memory.domain.csproj": {
-                "projectPath": "C:\\Users\\luis_\\Documents\\api-doc-memory\\api-doc-memory.domain\\api-doc-memory.domain.csproj"
+              "C:\\Users\\luis_\\Documents\\Nova pasta (2)\\api-doc-memory\\api-doc-memory.domain\\api-doc-memory.domain.csproj": {
+                "projectPath": "C:\\Users\\luis_\\Documents\\Nova pasta (2)\\api-doc-memory\\api-doc-memory.domain\\api-doc-memory.domain.csproj"
               }
             }
           }

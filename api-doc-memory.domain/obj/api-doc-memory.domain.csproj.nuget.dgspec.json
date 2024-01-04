@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luis_\\Documents\\api-doc-memory\\api-doc-memory.domain\\api-doc-memory.domain.csproj": {}
+    "C:\\Users\\luis_\\Documents\\Nova pasta (2)\\api-doc-memory\\api-doc-memory.domain\\api-doc-memory.domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luis_\\Documents\\api-doc-memory\\api-doc-memory.domain\\api-doc-memory.domain.csproj": {
+    "C:\\Users\\luis_\\Documents\\Nova pasta (2)\\api-doc-memory\\api-doc-memory.domain\\api-doc-memory.domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luis_\\Documents\\api-doc-memory\\api-doc-memory.domain\\api-doc-memory.domain.csproj",
+        "projectUniqueName": "C:\\Users\\luis_\\Documents\\Nova pasta (2)\\api-doc-memory\\api-doc-memory.domain\\api-doc-memory.domain.csproj",
         "projectName": "api-doc-memory.domain",
-        "projectPath": "C:\\Users\\luis_\\Documents\\api-doc-memory\\api-doc-memory.domain\\api-doc-memory.domain.csproj",
+        "projectPath": "C:\\Users\\luis_\\Documents\\Nova pasta (2)\\api-doc-memory\\api-doc-memory.domain\\api-doc-memory.domain.csproj",
         "packagesPath": "C:\\Users\\luis_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luis_\\Documents\\api-doc-memory\\api-doc-memory.domain\\obj\\",
+        "outputPath": "C:\\Users\\luis_\\Documents\\Nova pasta (2)\\api-doc-memory\\api-doc-memory.domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

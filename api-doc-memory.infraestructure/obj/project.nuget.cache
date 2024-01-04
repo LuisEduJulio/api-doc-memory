@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zHzzqpoTHB6vBg7FhUNunOuGjy0XLMwGm3N483ehUUtZPAcvS4dtfKkiUxpnTo6bn8sW1UoiZAOcYglis7427A==",
+  "dgSpecHash": "CAY7gk+WP2NGPg2oK+EwiT6fFv/wSujUPIZtaHfgHQuCAKKuiwK84AC+c4nWirjrLdr8D3NzJq7Pvp7OZY1q3w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\luis_\\Documents\\api-doc-memory\\api-doc-memory.infraestructure\\api-doc-memory.infraestructure.csproj",
+  "projectFilePath": "C:\\Users\\luis_\\Documents\\Nova pasta (2)\\api-doc-memory\\api-doc-memory.infraestructure\\api-doc-memory.infraestructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\luis_\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\luis_\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",

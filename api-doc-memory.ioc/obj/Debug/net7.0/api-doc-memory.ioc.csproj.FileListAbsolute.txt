@@ -21,3 +21,26 @@ C:\Users\luis_\Documents\api-doc-memory\api-doc-memory.ioc\obj\Debug\net7.0\refi
 C:\Users\luis_\Documents\api-doc-memory\api-doc-memory.ioc\obj\Debug\net7.0\api-doc-memory.ioc.pdb
 C:\Users\luis_\Documents\api-doc-memory\api-doc-memory.ioc\obj\Debug\net7.0\api-doc-memory.ioc.genruntimeconfig.cache
 C:\Users\luis_\Documents\api-doc-memory\api-doc-memory.ioc\obj\Debug\net7.0\ref\api-doc-memory.ioc.dll
+C:\Users\luis_\Documents\Nova pasta (2)\api-doc-memory\api-doc-memory.ioc\bin\Debug\net7.0\api-doc-memory.ioc.deps.json
+C:\Users\luis_\Documents\Nova pasta (2)\api-doc-memory\api-doc-memory.ioc\bin\Debug\net7.0\api-doc-memory.ioc.runtimeconfig.json
+C:\Users\luis_\Documents\Nova pasta (2)\api-doc-memory\api-doc-memory.ioc\bin\Debug\net7.0\api-doc-memory.ioc.dll
+C:\Users\luis_\Documents\Nova pasta (2)\api-doc-memory\api-doc-memory.ioc\bin\Debug\net7.0\api-doc-memory.ioc.pdb
+C:\Users\luis_\Documents\Nova pasta (2)\api-doc-memory\api-doc-memory.ioc\bin\Debug\net7.0\api-doc-memory.application.dll
+C:\Users\luis_\Documents\Nova pasta (2)\api-doc-memory\api-doc-memory.ioc\bin\Debug\net7.0\api-doc-memory.domain.dll
+C:\Users\luis_\Documents\Nova pasta (2)\api-doc-memory\api-doc-memory.ioc\bin\Debug\net7.0\api-doc-memory.infraestructure.dll
+C:\Users\luis_\Documents\Nova pasta (2)\api-doc-memory\api-doc-memory.ioc\bin\Debug\net7.0\api-doc-memory.utility.dll
+C:\Users\luis_\Documents\Nova pasta (2)\api-doc-memory\api-doc-memory.ioc\bin\Debug\net7.0\api-doc-memory.application.pdb
+C:\Users\luis_\Documents\Nova pasta (2)\api-doc-memory\api-doc-memory.ioc\bin\Debug\net7.0\api-doc-memory.infraestructure.pdb
+C:\Users\luis_\Documents\Nova pasta (2)\api-doc-memory\api-doc-memory.ioc\bin\Debug\net7.0\api-doc-memory.utility.pdb
+C:\Users\luis_\Documents\Nova pasta (2)\api-doc-memory\api-doc-memory.ioc\bin\Debug\net7.0\api-doc-memory.domain.pdb
+C:\Users\luis_\Documents\Nova pasta (2)\api-doc-memory\api-doc-memory.ioc\obj\Debug\net7.0\api-doc-memory.ioc.csproj.AssemblyReference.cache
+C:\Users\luis_\Documents\Nova pasta (2)\api-doc-memory\api-doc-memory.ioc\obj\Debug\net7.0\api-doc-memory.ioc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luis_\Documents\Nova pasta (2)\api-doc-memory\api-doc-memory.ioc\obj\Debug\net7.0\api-doc-memory.ioc.AssemblyInfoInputs.cache
+C:\Users\luis_\Documents\Nova pasta (2)\api-doc-memory\api-doc-memory.ioc\obj\Debug\net7.0\api-doc-memory.ioc.AssemblyInfo.cs
+C:\Users\luis_\Documents\Nova pasta (2)\api-doc-memory\api-doc-memory.ioc\obj\Debug\net7.0\api-doc-memory.ioc.csproj.CoreCompileInputs.cache
+C:\Users\luis_\Documents\Nova pasta (2)\api-doc-memory\api-doc-memory.ioc\obj\Debug\net7.0\api-doc-memory.ioc.csproj.CopyComplete
+C:\Users\luis_\Documents\Nova pasta (2)\api-doc-memory\api-doc-memory.ioc\obj\Debug\net7.0\api-doc-memory.ioc.dll
+C:\Users\luis_\Documents\Nova pasta (2)\api-doc-memory\api-doc-memory.ioc\obj\Debug\net7.0\refint\api-doc-memory.ioc.dll
+C:\Users\luis_\Documents\Nova pasta (2)\api-doc-memory\api-doc-memory.ioc\obj\Debug\net7.0\api-doc-memory.ioc.pdb
+C:\Users\luis_\Documents\Nova pasta (2)\api-doc-memory\api-doc-memory.ioc\obj\Debug\net7.0\api-doc-memory.ioc.genruntimeconfig.cache
+C:\Users\luis_\Documents\Nova pasta (2)\api-doc-memory\api-doc-memory.ioc\obj\Debug\net7.0\ref\api-doc-memory.ioc.dll
