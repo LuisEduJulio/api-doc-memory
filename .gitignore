@@ -105,3 +105,6 @@ ehthumbs.db
 .api-doc-memory/api-doc-memory.api/obj
 .api-doc-memory/api-doc-memory.api/bin
 /api-doc-memory/.vs/api-doc-memory
+/api-doc-memory.ioc/bin/Debug/net7.0/api-doc-memory.utility.pdb
+/api-doc-memory.infraestructure/obj/Debug/net7.0/api-doc-memory.infraestructure.pdb
+/api-doc-memory.infraestructure/obj/Debug/net7.0/api-doc-memory.infraestructure.genruntimeconfig.cache
